@@ -8,7 +8,7 @@ export default styles = StyleSheet.create({
     container: {
         flex: 1,
         width: '100%',
-        backgroundColor: '#ccc',
+        backgroundColor: '#eee',
     },
     viewImg: {
         alignItems: 'center',
