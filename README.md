@@ -2,6 +2,12 @@
 
 Este projeto é um exemplo de como implementar um sistema de login em um aplicativo React Native, utilizando o banco de dados Firebase para armazenar e autenticar usuários e Context para gerenciar o estado global da aplicação.
 
+<center>
+
+![Adobe Logo](./src/assets/Screenshot.png "Hover text")
+
+</center>
+
 ## Instalação
 
 Antes de começar, certifique-se de ter instalado o [Node.js](https://nodejs.org/) e o [React Native CLI](https://reactnative.dev/docs/environment-setup). Além disso, é necessário criar um projeto no Firebase e configurar as credenciais de acesso ao banco de dados.
