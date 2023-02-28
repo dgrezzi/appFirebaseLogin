@@ -29,10 +29,6 @@ export default function Signup() {
             <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : 'height'} style={styles.avoid} >
                 <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
                     <View style={styles.container}>
-                        <View style={styles.viewImg}>
-                            {/* <Image style={styles.img} source={require('../../assets/logo.png')} resizeMode="contain" /> */}
-                            <Text style={styles.textGray}>meu<Text style={styles.textRed}>App</Text></Text>
-                        </View>
                         <View style={styles.viewImput}>
                             {type && (<TextInput style={styles.textInput} placeholder='nome' value={name} onChangeText={(txt) => { setName(txt) }} />)}
                             <TextInput style={styles.textInput} placeholder='e-mail' value={email} onChangeText={(txt) => { setEmail(txt) }} />

@@ -10,16 +10,10 @@ export default styles = StyleSheet.create({
         width: '100%',
         backgroundColor: '#eee',
     },
-    viewImg: {
-        alignItems: 'center',
-        margin: 20,
-    },
-    img: {
-        width: 100,
-        height: 100,
-    },
     viewImput: {
         marginHorizontal: 20,
+        marginTop: 80,
+        marginBottom: 20,
     },
     textInput: {
         backgroundColor: '#fff',
@@ -61,9 +55,6 @@ export default styles = StyleSheet.create({
         fontSize: 50,
         color: '#555',
         fontWeight: 'bold',
-    },
-    textRed: {
-        color: 'red',
     },
     load: {
         flex: 1,
